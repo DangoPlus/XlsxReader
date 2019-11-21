@@ -1,22 +1,30 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+.uploadWrap {
+  display: inline-block;
+  position: relative;
+  width: 124px;
+  padding: 3px 5px;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
+.fileUploader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  outline: none;
+  opacity: 0;
+  background-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.uploadText {
+  display: inline-block;
+  margin-left: 5px;
 }
 
-.App-link {
-  color: #09d3ac;
+.uploadTip {
+  display: inline-block;
+  margin-left: 10px;
+  color: #999;
 }
